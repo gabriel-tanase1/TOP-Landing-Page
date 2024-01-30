@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
 }
 ul{
     margin: 0;
@@ -114,3 +115,32 @@ ul{
     margin-bottom: 24px;
 }
 
+/* QUOTE CONTENT */
+
+.quote-container{
+    width:600px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    font-size: 28px;
+    font-weight:300;
+    font-style: italic;
+}
+.author{
+    align-self: flex-end;
+    margin-right:20px;
+    font-weight: bold;
+}
+
+.quote-full-width{
+    width: 100%;/* for full coverage background-color of div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
