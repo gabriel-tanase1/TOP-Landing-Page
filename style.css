@@ -101,6 +101,7 @@ ul{
     justify-content: center;
     align-items: center;
     gap:38px;
+
 }
 
 .item-container{
@@ -144,3 +145,4 @@ ul{
     align-items: center;
     background-color: lightgray;
 }
+/*  */
