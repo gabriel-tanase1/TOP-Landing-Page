@@ -17,13 +17,14 @@ body{
 
 /* HEADER  */
 
-.full-width{
+.full-width{  /* for full coverage background-color of header */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: aqua;
 }
+
 .header{
     width:700px;
     margin-bottom: 48px;
@@ -76,7 +77,6 @@ ul{
     width: 300px;
     height:150px; 
     background-color:lightblue;
-    border: 1px solid white;
 }
 
 /* CONTENT */
@@ -87,8 +87,8 @@ ul{
     margin-bottom: 48px;
 }
 .small-placeholder{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin-bottom: 10px;
     background-color: white;
     border:5px solid lightblue;
@@ -99,7 +99,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:12px;
+    gap:38px;
 }
 
 .item-container{
